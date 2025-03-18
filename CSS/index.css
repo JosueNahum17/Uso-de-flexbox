@@ -1,0 +1,35 @@
+body {
+    background-color: #b7d7e8;
+}
+nav .logo {
+    width: 350px;
+    
+}
+
+nav {
+    color: black;
+    font-weight:bold ;
+    display: flex;
+    justify-content: space-evenly;
+    border-color: black;
+}
+
+nav a {
+    padding: 40px 40px;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    
+}
+a :hover {
+    
+    text-decoration: underline;
+}
+
+header {
+    background-color: #8d9db6;
+    border-radius: 30px;
+}
+
+
