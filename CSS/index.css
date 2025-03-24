@@ -1,35 +1,201 @@
-body {
-    background-color: #b7d7e8;
-}
-nav .logo {
-    width: 350px;
-    
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ED6A5A; /* Fondo oscuro */
+    padding: 20px;
 }
 
-nav {
-    color: black;
-    font-weight:bold ;
-    display: flex;
-    justify-content: space-evenly;
-    border-color: black;
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px; /* Espacio entre el logo y los enlaces */
 }
 
-nav a {
-    padding: 40px 40px;
-    font-size: 20px;
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    color: white;
+
+}
+
+nav ul li a :hover {
+    background-color: blue;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #fff;
+}
+
+.links li {
+    margin: 0 15px;
+}
+
+.links a {
     text-decoration: none;
+    color: white; 
+    font-size: 16px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.caja1 {
+    background-color: #F4F1BB;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caja1 h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.caja1 p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.caja1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.caja1 ul li {
+    margin-bottom: 10px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    box-shadow: black;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
     
 }
-a :hover {
-    
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.card strong {
+    color: black;
+}
+
+/* Estilo de .caja2 */
+.caja2 {
+    background-color: #007BFF;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.caja2 h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.caja2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.caja2 ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    background-color: #444;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer .copy {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
     text-decoration: underline;
 }
-
-header {
-    background-color: #8d9db6;
-    border-radius: 30px;
-}
-
-
